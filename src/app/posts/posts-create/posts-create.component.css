@@ -1,0 +1,7 @@
+.mat-input{
+  width: auto;
+}
+
+mat-text-field, textarea{
+  width: 100%;
+}

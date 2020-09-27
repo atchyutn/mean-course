@@ -1,8 +1,11 @@
 <p>Create Post Component</p>
 
-<textarea rows="6" [(ngModel)]="textArea"></textarea>
-<br>
-
-<button (click)="onPostSubmit()">Submit</button>
+<mat-card>
+  <mat-form-field>
+    <textarea rows="6" matInput [(ngModel)]="textArea"></textarea>
+  </mat-form-field>
+  <br>
+  <button color="accent" mat-raised-button (click)="onPostSubmit()">Submit</button>
+</mat-card>
 
 <p>{{postContent}}</p>
